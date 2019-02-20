@@ -1,0 +1,46 @@
+{
+    "allow_bike": true,
+    "allow_escape_rope": false,
+    "allow_running": true,
+    "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+    "bg_events": [
+        {
+            "elevation": 3,
+            "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+            "script": "Tester_WelcomeSign_Script",
+            "type": "sign",
+            "x": 14,
+            "y": 11
+        }
+    ],
+    "connections": null,
+    "coord_events": [
+    ],
+    "id": "MAP_TESTER",
+    "layout": "LAYOUT_TESTER",
+    "map_type": "MAP_TYPE_CITY",
+    "music": "MUS_DAN02",
+    "name": "Tester",
+    "object_events": [
+    ],
+    "region_map_section": "MAPSEC_TESTER",
+    "requires_flash": false,
+    "show_map_name": true,
+    "warp_events": [
+        {
+            "dest_map": "MAP_TESTER",
+            "dest_warp_id": 1,
+            "elevation": 3,
+            "x": 8,
+            "y": 9
+        },
+        {
+            "dest_map": "MAP_TESTER",
+            "dest_warp_id": 0,
+            "elevation": 3,
+            "x": 23,
+            "y": 9
+        }
+    ],
+    "weather": "WEATHER_SUNNY"
+}
